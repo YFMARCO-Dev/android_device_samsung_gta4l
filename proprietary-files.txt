@@ -1,4 +1,4 @@
-# Device-specific proprietary files - from Samsung package version T505XXS6CWI2, unless pinned
+# Device-specific proprietary files - from Samsung package version T505XXS7CXB1, unless pinned
 
 # RIL
 vendor/bin/adpl
