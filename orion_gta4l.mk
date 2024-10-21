@@ -37,6 +37,10 @@ BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true
 BUILD_GOOGLE_MESSAGE := true
 
+# Valid only for GApps builds
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
 PRODUCT_NAME := orion_gta4l
