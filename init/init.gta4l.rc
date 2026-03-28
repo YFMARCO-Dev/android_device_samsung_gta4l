@@ -80,5 +80,5 @@ on init
     chmod 0644 /dev/freezer/abnormal/cgroup.procs
     chmod 0644 /dev/freezer/abnormal/freezer.state
 
-# afc sysfs node
-    chown system radio /sys/class/sec/afc/afc_disable
+on property:ro.boot.em.model=*
+    mount none /vendor/firmware/wlanmdsp_${ro.boot.em.model}.mbn /vendor/firmware/wlanmdsp.mbn bind
