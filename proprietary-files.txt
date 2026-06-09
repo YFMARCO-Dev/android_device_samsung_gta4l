@@ -3,12 +3,10 @@
 # RIL
 vendor/bin/adpl
 vendor/bin/ks
-vendor/bin/netmgrd
 vendor/bin/hw/rild
 vendor/etc/data/netmgr_config.xml
 vendor/etc/floating_feature.xml
 vendor/etc/init/dataadpl.rc
-vendor/etc/init/netmgrd.rc
 vendor/etc/locale/plmn_delta_eng.bin
 vendor/etc/locale/plmn_delta_zh-rCN.bin
 vendor/etc/locale/plmn_delta_zh-rHK.bin
