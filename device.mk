@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/gta4l/gta4l-vendor.mk)
+# Inherit from sm6115-common
+$(call inherit-product, device/samsung/sm6115-common/common.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -55,5 +55,5 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     dummy_wlanmdsp.mbn
 
-# Inherit from sm6115-common
-$(call inherit-product, device/samsung/sm6115-common/common.mk)
+# Inherit proprietary blobs
+$(call inherit-product, vendor/samsung/gta4l/gta4l-vendor.mk)
